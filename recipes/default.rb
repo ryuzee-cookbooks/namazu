@@ -9,6 +9,8 @@
 # This software is released under the MIT License.
 # http://opensource.org/licenses/mit-license.php
 
+include_recipe "build-essential"
+
 package "nkf" do
   action :install
 end
